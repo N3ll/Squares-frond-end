@@ -1,0 +1,133 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 cont">
+            <h3 class="text-center">{{customizeCtrl.customizableSet.name + " by "+customizeCtrl.customizableSet.author}}</h3>
+            <p class="text-center">{{customizeCtrl.customizableSet.description}}</p>
+
+            <div class="clearfix grid-size">
+                <div ng-model="customizeCtrl.sq1" class="square" data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq1.img">
+                    <img ng-src="{{customizeCtrl.sq1.img}}" class="img-responsive" ng-show="customizeCtrl.sq1.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq2" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq2.img">
+                    <img ng-src="{{customizeCtrl.sq2.img}}" class="img-responsive" ng-show="customizeCtrl.sq2.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq3" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq3.img">
+                    <img ng-src="{{customizeCtrl.sq3.img}}" class="img-responsive" ng-show="customizeCtrl.sq3.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq4" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq4.img">
+                    <img ng-src="{{customizeCtrl.sq4.img}}" class="img-responsive" ng-show="customizeCtrl.sq4.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq5" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq5.img">
+                    <img ng-src="{{customizeCtrl.sq5.img}}" class="img-responsive" ng-show="customizeCtrl.sq5.img">
+                </div>
+
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq6" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq6.img">
+                    <img ng-src="{{customizeCtrl.sq6.img}}" class="img-responsive" ng-show="customizeCtrl.sq6.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq7" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq7.img">
+                    <img ng-src="{{customizeCtrl.sq7.img}}" class="img-responsive" ng-show="customizeCtrl.sq7.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq8" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq8.img">
+                    <img ng-src="{{customizeCtrl.sq8.img}}" class="img-responsive" ng-show="customizeCtrl.sq8.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq9" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq9.img">
+                    <img ng-src="{{customizeCtrl.sq9.img}}" class="img-responsive" ng-show="customizeCtrl.sq9.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq10" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq10.img">
+                    <img ng-src="{{customizeCtrl.sq10.img}}" class="img-responsive" ng-show="customizeCtrl.sq10.img">
+                </div>
+
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq11" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq11.img">
+                    <img ng-src="{{customizeCtrl.sq11.img}}" class="img-responsive" ng-show="customizeCtrl.sq11.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq12" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq12.img">
+                    <img ng-src="{{customizeCtrl.sq12.img}}" class="img-responsive" ng-show="customizeCtrl.sq12.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq13" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq13.img">
+                    <img ng-src="{{customizeCtrl.sq13.img}}" class="img-responsive" ng-show="customizeCtrl.sq13.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq14" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq14.img">
+                    <img ng-src="{{customizeCtrl.sq14.img}}" class="img-responsive" ng-show="customizeCtrl.sq14.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq15" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq15.img">
+                    <img ng-src="{{customizeCtrl.sq15.img}}" class="img-responsive" ng-show="customizeCtrl.sq15.img">
+                </div>
+
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq16" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq16.img">
+                    <img ng-src="{{customizeCtrl.sq16.img}}" class="img-responsive" ng-show="customizeCtrl.sq16.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq17" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq17.img">
+                    <img ng-src="{{customizeCtrl.sq17.img}}" class="img-responsive" ng-show="customizeCtrl.sq17.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq18" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq18.img">
+                    <img ng-src="{{customizeCtrl.sq18.img}}" class="img-responsive" ng-show="customizeCtrl.sq18.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq19" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq19.img">
+                    <img ng-src="{{customizeCtrl.sq19.img}}" class="img-responsive" ng-show="customizeCtrl.sq19.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq20" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq20.img">
+                    <img ng-src="{{customizeCtrl.sq20.img}}" class="img-responsive" ng-show="customizeCtrl.sq20.img">
+                </div>
+
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq21" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq21.img">
+                    <img ng-src="{{customizeCtrl.sq21.img}}" class="img-responsive" ng-show="customizeCtrl.sq21.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq22" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq22.img">
+                    <img ng-src="{{customizeCtrl.sq22.img}}" class="img-responsive" ng-show="customizeCtrl.sq22.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq23" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq23.img">
+                    <img ng-src="{{customizeCtrl.sq23.img}}" class="img-responsive" ng-show="customizeCtrl.sq23.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq24" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq24.img">
+                    <img ng-src="{{customizeCtrl.sq24.img}}" class="img-responsive" ng-show="customizeCtrl.sq24.img">
+                </div>
+                <div data-drop="true" jqyoui-droppable data-drag="true" jqyoui-draggable data-jqyoui-options="{snap:'.square',snapMode:'inner',revert: 'invalid'}" ng-model="customizeCtrl.sq25" class="square">
+                    <img ng-src="../images/sq-bg.png" class="img-responsive" ng-hide="customizeCtrl.sq25.img">
+                    <img ng-src="{{customizeCtrl.sq25.img}}" class="img-responsive" ng-show="customizeCtrl.sq25.img">
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-10 col-sm-push-1">
+                    <a href="#" class="btn btn-default pull-left customize-btn">Grid</a>
+                    <a href="#" class="btn btn-default pull-left customize-btn">Clear</a>
+                    <a href="#" class="btn btn-default pull-right customize-btn">Save</a>
+                    <a href="#" class="btn btn-default pull-right customize-btn">Order</a>
+                </div>
+            </div>
+
+            <div class="horizontal-scroll" data-drop="true" ng-model='customizeCtrl.customizableSet.squares' data-jqyoui-options jqyoui-droppable>
+                <ul class="inline-list list-inline">
+                    <li class="scroll-item" ng-repeat="square in customizeCtrl.customizableSet.squares" data-drag="true" ng-model="customizeCtrl.customizableSet.squares" jqyoui-draggable="{index: {{$index}}}" data-jqyoui-options="{helper:'clone',snap:'.square',snapMode:'inner',revert: 'invalid'}">
+                        <img ng-src="{{square.img}}" class="inside-scroll img-responsive">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
